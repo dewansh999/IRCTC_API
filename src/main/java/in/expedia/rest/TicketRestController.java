@@ -1,4 +1,4 @@
-package in.ashokit.rest;
+package in.expedia.rest;
 
 import java.util.Collection;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import in.ashokit.bindings.Passenger;
-import in.ashokit.bindings.Ticket;
-import in.ashokit.service.TicketService;
+import in.expedia.bindings.Passenger;
+import in.expedia.bindings.Ticket;
+import in.expedia.service.TicketService;
 
 @RestController
 public class TicketRestController {

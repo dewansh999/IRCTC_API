@@ -1,4 +1,4 @@
-package in.ashokit.bindings;
+package in.expedia.bindings;
 
 public class Passenger {
 

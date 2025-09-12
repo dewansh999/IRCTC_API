@@ -1,4 +1,4 @@
-package in.ashokit.service;
+package in.expedia.service;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -8,8 +8,8 @@ import java.util.Random;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
-import in.ashokit.bindings.Passenger;
-import in.ashokit.bindings.Ticket;
+import in.expedia.bindings.Passenger;
+import in.expedia.bindings.Ticket;
 
 @Service
 public class TicketServiceImpl implements TicketService {

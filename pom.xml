@@ -8,10 +8,10 @@
 		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>in.ashokit</groupId>
-	<artifactId>22_IRCTC_API</artifactId>
+	<groupId>in.expedia</groupId>
+	<artifactId>IRCTC_API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>22_IRCTC_API</name>
+	<name>IRCTC_API</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
