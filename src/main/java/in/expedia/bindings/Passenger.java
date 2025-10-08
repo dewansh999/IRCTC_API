@@ -2,6 +2,12 @@ package in.expedia.bindings;
 
 public class Passenger {
 
+	private String name;
+	private String email;
+	private String from;
+	private String to;
+	private String trainNum;
+	private String doj;
 	
 
 	public String getName() {
