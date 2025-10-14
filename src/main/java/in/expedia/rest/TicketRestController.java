@@ -26,6 +26,10 @@ public class TicketRestController {
 		Ticket ticket = service.bookTicket(p);
 		return new ResponseEntity<>(ticket, HttpStatus.CREATED);
 	}
-
+   @GetMapping("/tickets")
+	public ResponseEntity<Collection<Ticket>> getTickets() {
+		Collection<Ticket> allTickets = service.getAllTickets();
+		return new ResponseEntity<>(allTickets, HttpStatus.OK);
+	}
 	
 }
