@@ -1,8 +1,15 @@
 package in.expedia.bindings;
 
+
 public class Ticket {
     
-	
+	private Integer ticketNum;
+	private String name;
+	private String email;
+	private String from;
+	private String to;
+	private String trainNum;
+	private String status;
 
 	public Integer getTicketNum() {
 		return ticketNum;
